@@ -33,7 +33,7 @@ int main()
 	geometry quad = makeGeometry(quadVerts, 4, quadIndices, 6);
 
 	// load textures 
-	texture texImage = loadTexture("D:\\Workspace\\School\\Computer Graphics\\GLM Computer Graphics Project\\GLM Computer Graphics Project\\res\\terry.png");
+	texture texImage = loadTexture("res\\terry.png");
 
 	//make the shader
 	shader basicShader = loadShader("res\\basic.vert", "res\\basic.frag");
